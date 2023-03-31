@@ -1,0 +1,146 @@
+/* Universal Styles */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    margin: 0;
+}
+
+html {
+    font-size: 22px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+header,
+#mission,
+#featured,
+#locations,
+#boxs,
+.box-container {
+    display: flex;
+}
+
+/* Logo and Navigation Styles */
+
+header {
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    opacity: 1;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+main {
+    margin: 0px 60px;
+}
+
+/* Mission Container Styles */
+
+#mission {
+    background-image: url(./img/img-mission-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin-bottom: 100px;
+}
+
+#mission h2,
+#mission h4 {
+    padding: 10px;
+    background-color: black;
+}
+
+/* Featured Container Styles */
+
+#featured {
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#featured img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+#featured-title h2,
+#featured-title h4 {
+    margin: 20px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+/* Locations Container Styles */
+
+#locations {
+    margin-top: 100px;
+    height: 500px;
+    background-image: url(./img/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.box-container {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+#boxs {
+    justify-content: center;
+}
+
+/* Footer Container Location */
+
+
+footer {
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: left;
+}
